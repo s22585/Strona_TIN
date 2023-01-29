@@ -48,3 +48,29 @@ main{
     background-repeat: no-repeat;
     background-position: center center;
 }
+.Opis{
+    color: white;
+    border: 3px solid black;
+    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(0, 0, 0, 0.5)), url("Zdjecia/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    width: 80%;
+    height:0;
+    padding-top: 50%;
+    margin:auto;
+    position:relative;
+    text-align: left;
+    font-size: 20px;
+}
+.Tytul{
+    text-align: center;
+    color: rgb(255, 153, 0);
+    font-size: 30px;
+}
+.Tekst{
+    position:absolute;
+    top:8px;
+    left: 16px;
+}
+
