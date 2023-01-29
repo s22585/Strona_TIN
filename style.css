@@ -41,10 +41,10 @@ nav a.Wybrany{
 }
 
 main{
-    background-color:white;
-    background-image: url(Zdjecia/background-photo.jpg);
+    background-color: white;
+    background-image: url(Zdjecia/background-photo.jpeg);
     background-size: cover;
-    height: 100vw;
+    height: 60vw;
     background-repeat: no-repeat;
     background-position: center center;
 }
