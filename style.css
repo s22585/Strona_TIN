@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Saira', sans-serif;
+}
+
+nav{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(20, 19, 19, 0.945);
+}
+nav ul{
+    float:right;
+    margin-right: 30px;
+}
+nav li{
+    display:inline-block;
+    line-height: 90px;
+    margin: 0 16px;
+}
+nav a{
+    color:white;
+    text-transform: uppercase;
+    border: 2px transparent solid;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+label.NazwaStrony{
+    font-size: 45px;
+    color: white;
+    padding: 30px, 150px;
+    line-height: 90px;
+    margin: 16px;
+}
+nav a.Wybrany{
+    border: 1px solid rgb(255, 153, 0);
+}
