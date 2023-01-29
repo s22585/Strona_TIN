@@ -51,7 +51,7 @@ main{
 .Opis{
     color: white;
     border: 3px solid black;
-    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(0, 0, 0, 0.5)), url("Zdjecia/logo.png");
+    background-image: linear-gradient(rgba(34, 33, 33, 1), rgba(0, 0, 0, 0.5)), url("Zdjecia/logo.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size:contain;
@@ -73,4 +73,23 @@ main{
     top:8px;
     left: 16px;
 }
-
+.Zrodlo{
+    position:absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.myName{
+    color:rgb(255, 153, 0);
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+    background-color:rgba(20, 19, 19, 0.945)
+}
+.licznik1{
+    text-align:center;
+    color:white;
+}
+.licznik{
+    color:rgb(255, 153, 0);
+}
