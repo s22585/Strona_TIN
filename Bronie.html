@@ -15,9 +15,15 @@
                 <li><a class="Wybrany" href="Bronie.html">Bronie</a></li>
                 <li><a href="Umiejetnosci.html">Umiejętności</a></li>
                 <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Info</a></li>
+                <button class="guzik" onclick="usunTlo()">USUN TŁO</button>
+                <script>
+                    function usunTlo() {
+                    document.querySelector("Main").style.backgroundImage = "none";
+                    }
+                </script>
             </ul>
         </nav>
-        <main>
+        <main class="Main">
             
             <div class ="Opis">
                 <div class="Tekst"><div class = "Tytul"><p>To moje ulubione bronie w tej grze :D</p></div></div>
@@ -103,7 +109,6 @@
                     </div>
                 </div>
             </div>
-
         </main>
         
 

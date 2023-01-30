@@ -41,7 +41,7 @@ nav a.Wybrany{
 }
 
 main{
-    background-color: white;
+    background-color: black;
     background-image: url(Zdjecia/background-photo.jpeg);
     background-size: cover;
     height: 60vw;
@@ -107,9 +107,19 @@ footer{
     border: 1px solid white;
     text-align: center;
 }
+.Umiejetnosc{
+    border: 1px solid white;
+    text-align: center;
+    width: 600px;
+}
+
+.Umiejetnosc img{
+    width: 400px;
+    height: 200px;
+}
 .Statystyki{
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
 }
 .Statystyki img{
     width: 40px;
@@ -123,4 +133,22 @@ footer{
     display: flex;
     justify-content: center;
     padding-top: 40px;
+}
+
+.guzik{
+    background-color:rgba(20, 19, 19, 0.945) ;
+    border:2px solid rgb(255, 153, 0);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+}
+.guzik:hover{
+    background-color:rgb(255, 153, 0) ;
+    border:2px solid rgb(255, 153, 0);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 24px;
 }

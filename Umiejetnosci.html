@@ -15,23 +15,60 @@
                 <li><a href="Bronie.html">Bronie</a></li>
                 <li><a class="Wybrany" href="Umiejetnosci.html">Umiejętności</a></li>
                 <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Info</a></li>
+                <button class="guzik" onclick="usunTlo()">USUN TŁO</button>
+                <script>
+                    function usunTlo() {
+                    document.querySelector("Main").style.backgroundImage = "none";
+                    }
+                </script>
             </ul>
 
         </nav>
-        <main>
+        <main class="Main">
             
             <div class ="Opis">
-                <div class="Tekst"><div class = "Tytul"><p>To moje ulubione bronie w tej grze :D</p></div></div>
                 <div class="Bronie">
                     
                     
-                    <div class="Bron">
-                        <img src="Zdjecia/bronie/perks/Adrenaline.webp">
+                    <div class="Umiejetnosc">
+                        <img src="Zdjecia/Umiejetnosci/Adrenaline.webp">
                         <p></p>
-                        <a class="Nazwa" href="https://huntshowdown.fandom.com/wiki/Sparks_LRR">Sparks_LRR</a>
+                        <a class="Nazwa">Adrenailne</a>
                         <div class="Statystyki">
                         <ul>
-                            <li><b>Opis: </b>Instantly start regenerating Stamina while your Health is critically low.</li>
+                            <li>Instantly start regenerating Stamina while your Health is critically low.</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="Umiejetnosc">
+                        <img src="Zdjecia/Umiejetnosci/Bloodless.webp">
+                        <p></p>
+                        <a class="Nazwa">Bloodless</a>
+                        <div class="Statystyki">
+                        <ul>
+                            <li>Bleeding will not escalate from light to medium or intense bleeding.
+                                (i.e. any bleeding you incur will only ever be light bleeding).</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="Umiejetnosc">
+                        <img src="Zdjecia/Umiejetnosci/Determination.webp">
+                        <p></p>
+                        <a class="Nazwa">Determination</a>
+                        <div class="Statystyki">
+                        <ul>
+                            <li>Stamina recovery starts sooner.
+                                (Applies to both melee and sprinting stamina).</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="Umiejetnosc">
+                        <img src="Zdjecia/Umiejetnosci/Hornskin.webp">
+                        <p></p>
+                        <a class="Nazwa">Hornskin</a>
+                        <div class="Statystyki">
+                        <ul>
+                            <li>Reduce damage taken from blunt melee by 25%.</li>
                         </ul>
                         </div>
                     </div>
@@ -41,6 +78,8 @@
             </div>
 
         </main>
-
+        <footer>
+            Designed by <span class="myName">s22585</span>
+        </footer>
     </body>
 </html>
