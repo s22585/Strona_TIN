@@ -1,17 +1,17 @@
 var express = require('express');
-var router = express();
-let port = 3000;
+var apka = express();
+let port = 5500;
 
 let parser = require("body-parser")
-router.use(parser.text())
-router.use(parser.json())
+apka.use(parser.text())
+apka.use(parser.json())
 
-router.get("/przywitanie",(request,response)=>{
+apka.get("/przywitanie",(request,response)=>{
   response.send(":D")
 })
 
-router.post("/przywitanie",(request,response)=>{
+apka.post("/przywitanie",(request,response)=>{
   response.json("Witam, Twoje imie to:"+request.body.username)
 })
-router.listen(port)
+apka.listen(port)
 console.log("Serwer działa")
